@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white; 
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header{
+    height: 20%;
+    width: 100%;
+    background-color: 	#006400;
+}
+
+body header nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;    
+    padding: 2%;
+}
+
+body header nav h1 {
+    font-size: 3em;
+}
+
+body header nav ul li {
+    display: inline;
+}
+
+body div,
+body form {    
+    background: #006400;    
+    height: 30%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    font-size: 15pt;
+}
+
+body form input {
+    color: black;
+}
+
+body a button,
+body form #entrar, 
+body form #cadastrar,
+body div a button {
+    color: black;
+    font-size: 1.3em;
+    background: #82df83;
+    cursor: pointer;
+}
+
+span#pode {
+    color: black;
+}
+
+span#naopode {
+    color: black;
+}
+
+footer {
+    background-color: #006400;
+    height: 7%;
+    width: 100%;    
+    text-align: justify;
+    padding: 1%;
+    font-size: 0.9em;    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+footer p a {
+    background-color: #006400;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+footer p a:hover {
+    background-color: #006400;
+    padding: 3px;
+    border-radius: 3px;
+}
