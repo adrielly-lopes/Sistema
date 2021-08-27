@@ -16,7 +16,7 @@ body {
 body header{
     height: 20%;
     width: 100%;
-    background-color: 	#006400;
+    background-color: #006400;
 }
 
 body header nav {
@@ -49,25 +49,25 @@ body form {
 }
 
 body form input {
-    color: black;
+    color: #006400;
 }
 
 body a button,
 body form #entrar, 
 body form #cadastrar,
 body div a button {
-    color: black;
+    color: #006400;
     font-size: 1.3em;
     background: #82df83;
     cursor: pointer;
 }
 
 span#pode {
-    color: black;
+    color: #006400;
 }
 
 span#naopode {
-    color: black;
+    color: #006400;
 }
 
 footer {
