@@ -1,8 +1,3 @@
-<?php
-    require_once 'classe.php';
-    $u = new usuario();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
