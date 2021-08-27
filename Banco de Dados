@@ -1,9 +1,9 @@
-CREATE DATABASE `sistemafmap`;
-USE `sistemafmap`;
+CREATE DATABASE `sistema fmap`;
+USE `sistema fmap`;
 
 CREATE TABLE `usuarios` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-    `login` varchar(200) NOT NULL UNIQUE,
-    `senhaMD5` varchar(100) NOT NULL,
+    `Login` varchar(200) NOT NULL UNIQUE,
+    `Senha` varchar(100) NOT NULL,
     PRIMARY KEY (`id`)
 );
