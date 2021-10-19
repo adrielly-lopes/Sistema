@@ -3,7 +3,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$dbname = "sistema fmap";
+$dbname = "fmap";
 
 $conn= mysqli_connect($servidor, $usuario, $senha, $dbname);
 
