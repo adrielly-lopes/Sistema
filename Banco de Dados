@@ -6,6 +6,6 @@ CREATE TABLE `usuario` (
     `Nome` varchar(200) NOT NULL,
     `Email` varchar(250) NOT NULL UNIQUE,
     `Senha` varchar(100) NOT NULL,
-    `Nivel` varchar(50) NOT NULL,
+    `Usuario` varchar(50) NOT NULL,
     PRIMARY KEY (`id`)
 );
