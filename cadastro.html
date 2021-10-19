@@ -30,8 +30,19 @@
 
 
     <form method="POST" action="cadastro.php">
-        <input type="text" name="login" id="login" placeholder="Login:">
+        <input type="text" name="nome" id="login" placeholder="Nome:">
+        <input type="email" name="email" id="email" placeholder="Email:">
         <input type="password" name="senha" id="senha" placeholder="Senha:">
+        <label>Tipo de acesso:</label>
+            <label>
+                <input type="radio" name="usuario" value="nivel1" required>Visitante
+            </label>
+            <label>
+                <input type="radio" name="usuario" value="nivel2" required>Servidor
+            </label>
+            <label>
+                <input type="radio" name="usuario" value="nivel3" required>Chefe
+            </label>
         <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
     </form>
 
@@ -44,9 +55,6 @@
         </p>
         <p>
             <a href="https://www.facebook.com/fundacaodemeioambientedopantanal/"> Facebook </a>
-        </p>
-        <p>
-            <a href="https://www.imasul.ms.gov.br/"> Imasul </a>
         </p>
         <p>
             <a href="https://www.corumba.ms.gov.br/"> Prefeitura Municipal de Corumbá </a>
