@@ -8,9 +8,6 @@
             <a href="https://www.facebook.com/fundacaodemeioambientedopantanal/"> Facebook </a>
         </p>
         <p>
-            <a href="https://www.imasul.ms.gov.br/"> Imasul </a>
-        </p>
-        <p>
             <a href="https://www.corumba.ms.gov.br/"> Prefeitura Municipal de Corumbá </a>
         </p>
         <p>
