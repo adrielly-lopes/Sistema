@@ -1,11 +1,11 @@
-CREATE DATABASE `fmap`;
-USE `fmap`;
+CREATE DATABASE `acessofmap`;
+USE `acessofmap`;
 
-CREATE TABLE `usuario` (
+CREATE TABLE `pessoas` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-    `Nome` varchar(200) NOT NULL,
-    `Email` varchar(250) NOT NULL UNIQUE,
-    `Senha` varchar(100) NOT NULL,
-    `Usuario` varchar(50) NOT NULL,
+    `Nome` varchar(100) NOT NULL UNIQUE,
+    `Email` varchar(150) NOT NULL,
+    `Senha` varchar(50) NOT NULL,
+    `Usuario` varchar(30) NOT NULL,
     PRIMARY KEY (`id`)
 );
