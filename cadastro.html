@@ -30,18 +30,18 @@
 
 
     <form method="POST" action="cadastro.php">
-        <input type="text" name="nome" id="login" placeholder="Nome:">
+        <input type="text" name="nome" id="nome" placeholder="Nome:">
         <input type="email" name="email" id="email" placeholder="Email:">
         <input type="password" name="senha" id="senha" placeholder="Senha:">
         <label>Tipo de acesso:</label>
             <label>
-                <input type="radio" name="usuario" value="nivel1" required>Visitante
+                <input type="radio" name="usuario" value="visitante" required>Visitante
             </label>
             <label>
-                <input type="radio" name="usuario" value="nivel2" required>Servidor
+                <input type="radio" name="usuario" value="servidor" required>Servidor
             </label>
             <label>
-                <input type="radio" name="usuario" value="nivel3" required>Chefe
+                <input type="radio" name="usuario" value="chefe" required>Chefe
             </label>
         <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
     </form>
