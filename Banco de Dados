@@ -1,11 +1,11 @@
-CREATE DATABASE `SistemaFMAP`;
-USE `SistemaFMAP`;
+CREATE DATABASE `sistema fmap`;
+USE `Sistema fmap`;
 
 CREATE TABLE `usuarios` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
     `Nome` varchar(100) NOT NULL UNIQUE,
     `Email` varchar(150) NOT NULL,
-    `Senha` varchar(50) NOT NULL,
+    `Pass` varchar(50) NOT NULL,
     `NivelAcesso` varchar(30) NOT NULL,
     PRIMARY KEY (`id`)
 );
