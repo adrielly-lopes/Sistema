@@ -1,5 +1,5 @@
 CREATE DATABASE `sistema fmap`;
-USE `Sistema fmap`;
+USE `sistema fmap`;
 
 CREATE TABLE `usuarios` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
