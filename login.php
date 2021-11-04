@@ -9,6 +9,8 @@ if (!empty($_POST) AND (empty($_POST['nome']) OR empty($_POST['pass']))) {
 mysqli_select_db($conn, '$database');
 $Nome = mysqli_real_escape_string($_POST['nome']);
 $Pass = mysqli_real_escape_string($_POST['pass']);
+$Email = mysqli_real_escape_string($POST['email']);
+$NivelAcesso = mysqli_real_escape_string($POST['nivelacesso']);
         
 $sql = "SELECT `Nome`, `Pass`, `NivelAcesso` FROM `usuarios` WHERE (`Nome` = '".$Nome ."') AND (`Pass` = '". md5($Pass) ."') AND (`NivelAcesso` = '".$NivelAcesso . ")";
 $query = mysqil_query($sql);
